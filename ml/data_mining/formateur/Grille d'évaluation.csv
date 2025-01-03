@@ -1,0 +1,23 @@
+,,
+Thème,Critères,Points
+Data Preprocessing and Visualization (/25),"Visualisation des relations entre les variables (matrice de corrélation, pair plots, etc.)",5
+,"Exploration des données initiales (résumé statistique, détection des anomalies)",5
+,Justification des variables choisies,5
+,Traitement des données manquantes (le cas échéant),5
+,"Nettoyage des données (suppression des outliers, transformation des variables si nécessaire)",5
+Dataset Engineering (/10),"Division en ensembles de formation et de test avec justification (ex. validation croisée, ratio de division)",3
+,Normalisation/standardisation des données et justification,3
+,Encodage des variables catégorielles (le cas échéant),2
+,Vérification de l'absence de fuite de données entre l'entraînement et le test,2
+Model Definition (/15),Choix du modèle avec justification en fonction du problème,5
+,Application du Grid Search ou d’une autre méthode pour l'optimisation des hyperparamètres,5
+,"Justification du choix des hyperparamètres et des méthodes utilisées (validation croisée, etc.)",5
+Model Evaluation (/30),Évaluation du modèle sur l'ensemble de test avec plusieurs métriques,10
+,"Comparaison des résultats obtenus pour chaque modèle (précision, F1-score, etc.)",5
+,"Visualisation des résultats (matrices de confusion, courbes ROC, etc.)",10
+,Justification du choix du modèle final et des métriques d’évaluation,5
+Code and Documentation (/20),"Clarté et organisation du code (lisibilité, structure)",5
+,"Documentation et commentaires dans le code (explications des choix, logique de chaque étape)",5
+,Justification des choix méthodologiques à chaque étape,5
+,"Documentation du projet, y compris des résultats et des interprétations (dans le notebook)",5
+Total,,100
